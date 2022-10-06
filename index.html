@@ -3,6 +3,11 @@
 <title>Asciiverse</title>
 </head>
 <body>
-<iframe src="https://trinket.io/embed/python3/3043f62f0d?outputOnly=true&runOption=run&start=result" width="100%" height="100%" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe onload="myfunc()" id="trinket-iframe" src="https://trinket.io/embed/python3/3043f62f0d?outputOnly=true&runOption=run&start=result" width="100%" height="100%" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<script>
+let myfunc = function (){
+document.getElementById('trinket-iframe').contentWindow.document.getElementById('python3-console-output').style += "color:white; background-color:black"
+}
+</script>
 </body>
 </html>
