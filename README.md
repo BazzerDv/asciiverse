@@ -3,7 +3,7 @@ A terminal game created by BazzerDv as a side project.
 
 Status: In Development
 
-You can download the python file and run directly in your terminal or play here: [Asciiverse](https://asciiversegame.github.io/asciiverse/)
+You can download the python file and run directly in your terminal or play here: [Asciiverse](https://bazzerdv.github.io/asciiverse/)
 
 Note: This game will also work in an IDE that doesn't have a terminal, but not as effectively.
 
